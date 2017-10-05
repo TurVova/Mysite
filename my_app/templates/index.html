@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        {% extends 'base.html' %}
+        <title>
+            {% block title %}
+            Home
+            {% endblock title %}
+        </title>
+    </head>
+    <body>
+        <div class="conteiner">
+            <div>
+                <h1>
+                    {% block content_title %}
+
+                    Hello to all inquisitive
+
+                    {% endblock content_title %}
+                </h1>
+              {% block content %}
+
+              {% endblock content %}
+            </div>
+        </div>
+    </body>
+</html>
